@@ -12,6 +12,7 @@
     <RepositoryUrl>https://github.com/wgraham17/aspnetcore-slack-token-auth</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>authentication slack aspnetcore</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

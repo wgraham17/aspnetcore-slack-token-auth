@@ -9,7 +9,7 @@
 
     public class SlackTokenAuthenticationHandler : AuthenticationHandler<SlackTokenAuthenticationOptions>
     {
-        protected SlackTokenAuthenticationHandler(IOptionsMonitor<SlackTokenAuthenticationOptions> options,
+        public SlackTokenAuthenticationHandler(IOptionsMonitor<SlackTokenAuthenticationOptions> options,
             ILoggerFactory logger,
             UrlEncoder encoder,
             ISystemClock clock)
